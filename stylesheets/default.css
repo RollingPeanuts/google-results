@@ -1,3 +1,16 @@
+html, body {
+	height: 100%;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+#search-bar {
+
+}
+
 #container {
 }
 
