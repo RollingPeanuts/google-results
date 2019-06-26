@@ -7,14 +7,34 @@ nav {
 	justify-content: space-between;
 }
 
-#search-bar {
+#search-bar .button {
+	border: none;
+	background-color: transparent;
+	height: 24px;
+	width: 24px;
+	color: #4285f4;
+}
 
+svg {
+	fill: currentColor;
+	line-height: 24px;
+}
+
+#google-logo {
+}
+
+#search-bar {
 }
 
 #container {
 }
 
 #left-nav {
+	display: flex;
+}
+
+#left-nav form {
+	display: flex;
 }
 
 #right-nav { 
