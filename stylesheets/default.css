@@ -8,6 +8,10 @@ nav {
 	justify-content: space-between;
 }
 
+.button {
+	text-decoration: none;
+}
+
 #search-bar .button {
 	border: none;
 	background-color: transparent;
@@ -24,14 +28,35 @@ svg {
 	width: 100%;
 }
 
+a {
+	font-size: 13px;
+}
+
 #search-input {
 	border: none;	
-	width: 542px;
-	
+	width: 532px;
+	font-size: 16px;
+}
+
+#google-apps::before {
+	content: "";
+	background-image: url("../images/google_apps_black.png");	
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	vertical-align: middle;
+	opacity: 0.55;
+}
+
+#google-apps:hover::before {
+	opacity: 1;
 }
 
 #google-logo {
 	align-self: center;
+	padding: 4px 28px 0 30px;
 }
 
 #google-voice {
@@ -43,9 +68,21 @@ svg {
 	align-items: center;
 	border: 1px hsl(0, 0%, 87%) solid;
         border-radius: 24px;
-	width: 628px;
-	line-height: 24px;
-	padding: 5px 0 0 20px;
+	width: 608px;
+	padding-left: 20px;
+}
+
+#sign-in {
+	display: inline-block;
+	border: 1px solid #4285f4;
+	font-weight: bold;
+	background-color: #4284f4;
+	line-height: 28px;	
+	padding: 0 12px;
+	color: #fff;
+	border-radius: 2px;
+	margin-left: 15px;
+	cursor: default;
 }
 
 #container {
@@ -60,9 +97,16 @@ svg {
 }
 
 #right-nav { 
+	margin: auto 0;
+	padding: 0 30px;
 }
 
 #search-options {
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
 }
 
 #benchmark {
