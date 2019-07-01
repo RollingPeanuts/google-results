@@ -10,28 +10,29 @@
 	<body>
 		<div id="container">
 			<nav>
-				<div id="left-nav">
-					<a id="google-logo" href="#home">
-						<img src="./images/googlelogo_color.png" alt="Google Logo" width="92" height="30">
-					</a>
-					<form>
-						<div id="search-bar">
-							<input id="search-input" type="text">
-							<img id="google-voice"  src="./images/google_voice_icon.png" alt="Voice Search Icon" width="24" height="24">
-							<button class="button" aria-label="Google Search" type="submit">
-								<svg focusable="false" viewBox="0 0 24 24">
-									<path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
-								</svg>
-							</button>
-						</div>
-					</form>
+				<div id="fixed-nav">
+					<div id="left-nav">
+						<a id="google-logo" href="#home">
+							<img src="./images/googlelogo_color.png" alt="Google Logo" width="92" height="30">
+						</a>
+						<form>
+							<div id="search-bar">
+								<input id="search-input" type="text">
+								<img id="google-voice"  src="./images/google_voice_icon.png" alt="Voice Search Icon" width="24" height="24">
+								<button class="button" aria-label="Google Search" type="submit">
+									<svg focusable="false" viewBox="0 0 24 24">
+										<path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+									</svg>
+								</button>
+							</div>
+						</form>
+					</div>
+					<div id="right-nav">
+						<a id="google-apps" href="#apps"></a> 
+						<a id="sign-in" class="button" href="#account">Sign In</a>
+					</div>
 				</div>
-				<div id="right-nav">
-					<a id="google-apps" href="#apps"></a> 
-					<a id="sign-in" class="button" href="#account">Sign In</a>
-				</div>
-			</nav>
-			<div id="nav-links">
+				<div id="nav-links">
 					<a id="search-home" href="#">All</a>
 					<a id="search-shopping" href="#shopping">
 						<svg focusable="false" viewBox="0 0 24 24"> 
@@ -65,10 +66,12 @@
 					</a>
 					<a href="#settings">Settings</a>
 					<a id="search-tools" href="#tools">Tools</a>
-			</div>
-			<div id="benchmark">
-			</div>
+				</div>	
+			</nav>
 			<main>
+				<div id="benchmark">
+					<span>About 2,630,000,000 results (0.94 seconds)</span>
+				</div>
 				<div class="search-result">
 				</div>
 			</main>

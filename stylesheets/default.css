@@ -4,6 +4,10 @@ html, body {
 }
 
 nav {
+	height: 124px;
+}
+
+#fixed-nav {
 	position: fixed;
 	display: flex;
 	justify-content: space-between;
@@ -80,6 +84,7 @@ svg {
 	align-self: center;
 	height: 100%;
 	width: 100%;
+	cursor: pointer;
 }
 
 #nav-links svg {
