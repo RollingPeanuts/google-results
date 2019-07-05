@@ -197,6 +197,10 @@ main > * {
 	max-width: 600px;
 }
 
+#preview-icon img {
+	float: right;
+}
+
 #benchmark {
 	font-size: small;
 	line-height: 43px;
@@ -248,14 +252,16 @@ main > * {
 	line-height: 1.5;
 }
 
-#suggestion-table {
+
+.border-area {
 	margin-left: -20px;
 	margin-right: -20px;
 	border: 1px solid #dfe1e5;
 	border-radius: 8px;
+	overflow: hidden;
 }
 
-#suggestion-table > * {
+#suggestion-table .border-area > * {
 	padding: 9px 16px;
 }
 
