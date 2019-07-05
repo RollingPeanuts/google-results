@@ -83,10 +83,11 @@ nav {
 
 svg {
 	fill: currentColor;
-	line-height: 24px;
-	align-self: center;
-	height: 100%;
+}
+
+#search-bar svg {
 	width: 100%;
+	height: 100%;
 	cursor: pointer;
 }
 
@@ -192,7 +193,7 @@ main {
 }
 
 main > * {
-	margin-left: 170px;
+	margin: 0 0 26px 170px;
 	max-width: 600px;
 }
 
@@ -204,7 +205,6 @@ main > * {
 
 .search-result {
 	display: block;
-	margin-bottom: 26px;
 }
 
 .website-title {
@@ -246,6 +246,46 @@ main > * {
 .website-links a {
 	color: #1a0dab;
 	line-height: 1.5;
+}
+
+#suggestion-table {
+	margin-left: -20px;
+	margin-right: -20px;
+	border: 1px solid #dfe1e5;
+	border-radius: 8px;
+}
+
+#suggestion-table > * {
+	padding: 9px 16px;
+}
+
+#table-header {
+	font-size: 18px;
+	color: #808080;
+	line-height: 1.33;
+	font-weight: normal;
+	margin: 0;
+}
+
+.question-suggestion {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 1px solid #dfe1e5;
+	font-size: 16px;
+	color: #222;
+}
+
+.question-suggestion svg {
+	width: 24px;
+	height: 24px;
+}
+
+#suggestion-feedback {
+	display: block;
+	margin-top: 5px;
+	text-align: right;
+	font-style: italic;
 }
 
 #related {
