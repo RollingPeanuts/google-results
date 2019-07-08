@@ -12,7 +12,7 @@ nav {
 	position: fixed;
 	display: flex;
 	justify-content: space-between;
-	padding: 20px 0 5px 0;
+	padding: 15px 0 5px 0;
 	width: 100%;
 	min-width: 1100px;
 	background: white;
@@ -21,7 +21,7 @@ nav {
 
 #nav-links {
 	position: relative;
-	top: 62px;
+	top: 57px;
 	padding-left: 158px;
 	border-bottom: 1px solid #ebebeb;
 	height: 60px;
@@ -309,6 +309,10 @@ main > * {
 	height: 6.5em;
 }
 
+#all-videos a:hover .website-title {
+	text-decoration: underline;
+}
+
 .video-data {
 	padding: 0 16px 11px 16px;
 }
@@ -358,6 +362,10 @@ main > * {
 	opacity: 0.8;
 }
 
+#next-button:hover svg {
+	color: #222;
+}
+
 .search-result {
 	display: block;
 }
@@ -403,6 +411,10 @@ main > * {
 	line-height: 1.5;
 }
 
+.website-links a:hover {
+	text-decoration: underline;
+}
+
 
 .border-area {
 	margin-left: -20px;
@@ -443,6 +455,10 @@ main > * {
 	margin-top: 5px;
 	text-align: right;
 	font-style: italic;
+}
+
+#suggestion-feedback:hover {
+	text-decoration: underline;
 }
 
 #related-search-box {
@@ -494,6 +510,10 @@ main > * {
 	line-height: 20px;
 }
 
+.related-link-column a:hover {
+	text-decoration: underline;
+}
+
 #page-select {
 	margin: 0 auto;
 }
@@ -512,6 +532,10 @@ main > * {
 	color: #4285f4;
 }
 
+#page-select a:hover {
+	text-decoration: underline;
+}
+
 .google-nav-logo {
 	background: url("../images/nav_logo.png") -74px 0 no-repeat;
 	display: block;
@@ -528,12 +552,6 @@ main > * {
 #nav-more {
 	background-position: -96px 0;
 	width: 71px;
-}
-
-.text-link {
-}
-
-#footer-link {
 }
 
 #location-bar {
