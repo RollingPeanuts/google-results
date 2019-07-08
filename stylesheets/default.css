@@ -465,7 +465,7 @@ main > * {
 	padding: 14px 0 20px 0;
 }
 
-.related-software {
+#software-list a{
 	display: inline-block;
 	margin-left: 17px;
 	width: 72px;
@@ -481,6 +481,18 @@ main > * {
 	font-size: 18px;
 	font-weight: normal;
 }	
+
+.related-link-column {
+	display: inline-block;
+}
+
+.related-link-column a {
+	display: block;
+	padding: 3px 32px 3px 0;
+	color: #1a0dab;
+	font-size: 14px;
+	line-height: 20px;
+}
 
 #page-select {
 }
